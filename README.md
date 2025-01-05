@@ -267,7 +267,7 @@ InventorySystem/
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/InventorySystem.git
+git clone https://github.com/OdaiHasanAbuHaroon/InventorySystem.git
 cd InventorySystem
 ```
 
