@@ -1,0 +1,18 @@
+{
+  "AllowedUserAgents": "Mozilla;Chrome;Safari;PostmanRuntime;Dart",
+  "SessionLifeTime": "600",
+  "MaxFileSizeInBytes": "33554432",
+  "CollectRequestInfo": true,
+  "MaintenanceMode": false,
+  "EmailChannel": "Smtp",
+  "EnableSwagger": true,
+  "EnableConfigAttachmentBackup": false,
+  "EnableAttachmentBackup": false,
+  "OwnerKey": "r8|vw)22imEm~9hP~1zv1uM<~b.o_,Zh",
+  "ResetPasswordInterval": 10,
+  "DetailedError": true
+}
+
+ 
+  
+ 

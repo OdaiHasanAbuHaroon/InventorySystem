@@ -1,0 +1,6 @@
+﻿Set Default Project Data
+1 ==> Set connection string DefaultConnection value in appsettings for database + option for migration  (ClientMigration)
+      * Add-Migration MC006 -Context DatabaseContext
+      Update-Database -Context DatabaseContext 
+
+ Remove-Migration -Context ***

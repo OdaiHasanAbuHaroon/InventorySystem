@@ -1,0 +1,35 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=.;Initial Catalog=InventorySystem;User ID=LocalSQLUser;Password=Local@135;Encrypt=False;Trust Server Certificate=True;Command Timeout=300;Persist Security Info=True"
+  },
+  "ScriptsPath": "Scripts\\",
+  "ClientMigration": {
+    "EnableDefaultSeed": true,
+    "EnableCustomSeed": false
+  },
+  "Serilog": {
+    "MinimumLevel": {
+      "Default": "Information",
+      "Override": {
+        "Microsoft": "Information",
+        "System": "Information"
+      }
+    },
+    "WriteTo": [
+      {
+        "Name": "Console"
+      },
+      {
+        "Name": "File",
+        "Args": {
+          "path": "DbContextFactory/log-.txt",
+          "rollingInterval": "Day"
+        }
+      }
+    ],
+    "Enrich": [ "FromLogContext", "WithMachineName", "WithThreadId" ],
+    "Properties": {
+      "Application": "DbContextFactory"
+    }
+  }
+}
